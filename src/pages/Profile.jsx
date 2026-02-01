@@ -4,7 +4,7 @@ import camera from "../assets/camera.svg";
 
 function Profile() {
   return (
-    <div className="   w-[375px] h-screen bg-[#F7F8F9] mx-auto flex flex-col justify-start pb-[30px]  rubik-font  ">
+    <div className="   w-full h-full bg-[#F7F8F9] mx-auto flex flex-col justify-start pb-[30px]  rubik-font  ">
       <div className="text-[18px] bg-white text-[#1D2226] shadow-[0_3px_6px_#00000007] leading-[21px] px-[15px] text-left pt-[27px] pb-[19px] capitalize">
         Account Settings
       </div>

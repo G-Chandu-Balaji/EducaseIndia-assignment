@@ -11,7 +11,7 @@ function Signup() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="px-[20px] pt-[40px]   w-[375px] h-screen bg-[#F7F8F9] mx-auto flex flex-col justify-start  pb-[30px] gap-[31px] rubik-font"
+      className="px-[20px] pt-[40px]   w-full h-full bg-[#F7F8F9] mx-auto flex flex-col justify-start  pb-[30px] gap-[31px] rubik-font"
     >
       <h2 className="text-[#1D2226] text-left text-[28px] tracking-normal  font-medium leading-[36px] w-[188px] cursor-default ">
         Create your PopX account

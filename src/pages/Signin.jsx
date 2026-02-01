@@ -9,7 +9,7 @@ export default function Signin() {
 
   const isFormValid = email.trim() !== "" && password.trim() !== "";
   return (
-    <div className="px-[20px] pt-[40px]   w-[375px] h-screen bg-[#F7F8F9] mx-auto flex flex-col justify-start  gap-[33px] rubik-font">
+    <div className="px-[20px] pt-[40px]  w-full h-full bg-[#F7F8F9] mx-auto flex flex-col justify-start  gap-[33px] rubik-font">
       <div className="text-[#1D2226] text-left gap-3.5 flex flex-col   ">
         <h2 className=" text-[28px] tracking-normal  font-medium leading-[36px] w-[188px] cursor-default ">
           Signin to your PopX account

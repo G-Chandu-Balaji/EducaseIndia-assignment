@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function Home() {
   const navigate = useNavigate();
   return (
-    <div className="px-[20px] pb-[41px]   w-[375px] h-screen bg-[#F7F8F9] mx-auto flex flex-col justify-end  gap-[29px] rubik-font">
+    <div className="px-[20px] pb-[41px]   w-full h-full bg-[#F7F8F9] mx-auto flex flex-col justify-end  gap-[29px] rubik-font">
       <div className="text-[#1D2226] text-left gap-y-2.5">
         <h2 className=" text-[28px] tracking-normal  font-medium cursor-default">
           Welcome to PopX
